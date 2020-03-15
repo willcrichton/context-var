@@ -7,7 +7,7 @@ class ContextVar:
 
     See tests/test_all.py for example usage.
     """
-    def __init__(self, default):
+    def __init__(self, default=None):
         self.values = [default]
 
     @contextmanager
