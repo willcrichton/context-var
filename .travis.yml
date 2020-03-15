@@ -1,5 +1,7 @@
 language: python
 python: 3.5
+install: python3 setup.py install
+script: python3 setup.py test
 deploy:
   provider: pypi
   user: wcrichto
