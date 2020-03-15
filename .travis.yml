@@ -7,5 +7,6 @@ deploy:
   user: wcrichto
   password:
     secure: fcczTwNEMt65D+19f3u2lLNngMelfxE05pfIpD1uuqigU2lH7rXzol/bTtTgPTQjOGHaSmxfdel+0pH1mKcS5KcXyxHjRfqqDnd6ujnwQuImtT0Pgw7DOhQLt2Y33WGYIAeZ4PyXV8wGj9aqcUfembYRxgIur9xj9vMf0K4mGRDxetbxYrKbnBV/BizlGKegP5Qkl/XqPp3mg613yZn9Fj+RnEfgD5L4aXIzZU0i9lk/s9+ltMNaRRTMYFLU0dgj+YU7jq870tKvOvSkIRnRieFkZNtzojtd2QUKAJPK70Nhcv3qPXjVPZGflnb6JyqUJxksVY+rpyaJp78nc9NLp5Q6u2whkLHmJhr8jCfeboNJc4tmHwBDiGboLXFaw9yoNwqGg30NEfKus9pxwjrpuhRy8jRzSgHds0/9rIyP+gnwmF7eO/TjsizqHBWs/91YXbLU9cx/i+Si3SpGFHEZ7oxBegRdzVh94Npqbd+y9eCt3peuzsx8B9V17ziGuC73xwmV7D8HBexWs26lDWZ+J5P577oebvYUoZGAeRJRWd7xJMLGx5qnwOuDZgJYapncio5AsCv8W0JyYdLaK5NBYMPSHgmejbepNQS28MGigmVsd+IJ5TzubW5xTdUKNykTILntg8RO095Uz1MPEfw0uuk8Nsxw6r4AivFPGHNj4FE=
-    on:
-      tags: true
+  skip_cleanup: true
+  on:
+    tags: true
